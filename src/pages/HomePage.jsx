@@ -60,7 +60,7 @@ export default function HomePage() {
         </nav>
 
         <div className="p-8">
-          <h1 className="text-3xl font-bold mb-8 text-center">Departemen Teknik Elektro!</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Departemen Teknik Elektro</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {data.map((item) => (
               <div key={item.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
